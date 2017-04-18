@@ -15,6 +15,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: pink;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -89,5 +90,10 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+.jumbotron .h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: blue;
   }
 }
